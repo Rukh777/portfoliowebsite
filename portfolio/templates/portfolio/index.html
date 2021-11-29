@@ -4,25 +4,25 @@
 <html lang="en">
 
 {% include "portfolio/head.html" %}
-{% include "portfolio\header.html" %}
+{% include "portfolio/header.html" %}
 <body>
 
   <!-- Start your project here-->
   <main>
     <div class="container-fluid mt-5 pt-5">
-    {% include "portfolio\mywork.html" %}
+    {% include "portfolio/mywork.html" %}
     </div>
 
   <!-- /Start your project here-->
 <div class="container" id="about">
-  {% include "portfolio\about.html" %}
+  {% include "portfolio/about.html" %}
 <hr class="between-sections">
-  {% include "portfolio\contact.html" %}
+  {% include "portfolio/contact.html" %}
 </div>
 
 
   </main>
-{% include "portfolio\footer.html" %}
+{% include "portfolio/footer.html" %}
 
   <div class="dotted-scrollspy clearfix d-none d-sm-block">
     <ul class="nav smooth-scroll flex-column">
@@ -32,7 +32,7 @@
     </ul>
   </div>
 
-  {% include "portfolio\scripts.html" %}
+  {% include "portfolio/scripts.html" %}
 </body>
 
 </html>
